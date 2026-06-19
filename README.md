@@ -35,7 +35,7 @@ Your submission file must follow these rules:
 2. Name it exactly: `groupN_submission.csv` (e.g. `group1_submission.csv`).
 3. Must have exactly one column named `prediction`.
 4. Values must be `0` or `1` only.
-5.Must have exactly **61 rows** (one per row in test.csv).
+5. Must have exactly **61 rows** (one per row in test.csv).
 
 Your file should look like this:
 prediction
@@ -83,4 +83,13 @@ Your submission will be evaluated on **F1 Score** (primary) and **Accuracy** (se
 - Use cross validation to avoid overfitting
 - Tune hyperparameters using `GridSearchCV`
 
+## ▶️ How to Run Locally
+1. Clone the repository
+2. Install required libraries
+3. Run starter_code.py
 
+## 📦 Requirements
+- Python 3.x
+- pandas
+- numpy
+- scikit-learn 
